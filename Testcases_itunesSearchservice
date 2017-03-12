@@ -1,0 +1,17 @@
+Test cases for itunes search service
+--------------------------------------
+Test case 1: Basic check to verify if the service is up
+Test case 2: Search with all parameters - Positive scenario with limit=1 - verify response has song
+Test case 3: Search with all parameters - Positive Search media as movie and with country and term parameters
+Test case 4: Search with 2 parameterized data term and country with media and limit parameters -verify currency is USD
+Test case 5: verify record count and track names by passing term, country and media from data provider
+Test case 6: Search with all parameters - Positive Search music from other countries
+Test case 7: Search with all parameters - Negative scenario to check error message for invalid country
+Test case 8: Verify content type as Json for the search media as tvshow with all parameters
+TestCase  9: Verify artistId with the search media as tvshow
+TestCase 10: Verify the response for the kind as  music-videos
+TestCase 11: Verify response for podcasts with all parameters
+TestCase 12: Verify response for shortFilms with all parameters
+TestCase 13: Verify response for the search media software
+TestCase 14: Verify response for the search media ebook
+TestCase 15: Verify response for the search media movie other countries
